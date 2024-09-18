@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header {
+    padding: 15px 0;
+    background-color: #f0f0f0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    line-height: 1.5;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-list a:hover {
+    color: tomato;
+    transition: color 0.3s ease-in-out;
+}
+
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(cool.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.heading-1 {
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+    color: green;
+}
+
+.paragraph-1 {
+    font-size: 18px;
+    line-height: 1.5;
+    color: green;
+}
+
+.section-2 {
+    padding: 70px 0;
+}
+
+.heading-2 {
+    font-size: 50px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.benefits h3 {
+    font-size: 35px;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.benefits-wrapper {
+    display: flex;
+    gap: 15px;
+}
+
+@media screen and (max-width:430px) {
+    .benefits-wrapper {
+        flex-direction: column;
+    }
+}
